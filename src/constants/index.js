@@ -233,20 +233,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Church Hub",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This application provide all kind of features/functionalities that the users needs from churches. Users can schedule events (appointments, resource planning/allocation etc.. ) through this application.",
       tags: [
         {
-          name: "react",
+          name: "Vue.js with Vuex",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: ".Net framework with C#",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "SQL Server and NHibernate",
           color: "pink-text-gradient",
         },
       ],
