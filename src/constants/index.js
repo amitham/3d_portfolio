@@ -174,7 +174,7 @@ import {
     },
     {
       title: "Senior Software Engineer",
-      company_name: "Empite (pvt) Ltd",
+      company_name: "Empite (pvt) Ltd - Australia",
       icon: empite,
       iconBg: "#ffff",
       date: "Dec 2016 - Aug 2017",
@@ -187,7 +187,7 @@ import {
     },
     {
       title: "Software Engineer",
-      company_name: "Empite (pvt) Ltd",
+      company_name: "Empite (pvt) Ltd - Australia",
       icon: empite,
       iconBg: "#ffff",
       date: "Dec 2014 - Nov 2016",
