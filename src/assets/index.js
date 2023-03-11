@@ -21,14 +21,22 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import agrando from "./company/agrando.png"
+import embla from "./company/embla.png"
+import empite from "./company/empite.png"
+import virtusa from "./company/virtusa.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import churchhub from "./projects/churchhub.png"
+import acta from "./projects/acta.png"
+import empty from "./projects/empty.png"
+import path2smile from "./projects/path2smile.jpg"
+import cc from "./projects/cc.png"
+import good2give from "./projects/good2give.png"
+import tapsy from "./projects/tapsy.png"
+
 import aurelia from "./tech/aurelia.png"
 import vuejs from "./tech/vuejs.png"
 import dotnet from "./tech/dotnet.png"
@@ -50,10 +58,11 @@ export {
   github,
   menu,
   close,
+
   css,
   docker,
   figma,
-  git,
+  git,  
   html,
   javascript,
   mongodb,
@@ -63,21 +72,33 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+
   carrent,
   jobit,
   tripguide,
+
   aurelia,
   vuejs,
   dotnet,
   sql,
+
   shalini,
   asanka,
   chinthaka,
   krishan,
   masha,
-  sameera
+  sameera,
+
+  agrando,
+  embla,
+  empite,
+  virtusa,
+
+  churchhub,
+  acta,
+  empty,
+  path2smile,
+  cc,
+  good2give,
+  tapsy
 };

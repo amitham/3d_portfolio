@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "homepage": "https://amitham.github.io/3dportfolio",
   "type": "module",
-  "scripts": {    
-    "deploy": "npm run build && gh-pages -d dist",
+  "scripts": {
+    "deploy": "vite build --base=./ && gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview"
   },
   "dependencies": {

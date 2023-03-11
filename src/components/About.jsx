@@ -31,25 +31,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leadin-[30px]">
-        "Keen to learn new technologies" 
-
-        Experience : 10+ Years
-
-        Core Technical skills:
-        • C# .NET
-        • JavaScript, JQuery, Angular.js, Angular 2+, Aurelia.js, Vue.js, React.js, Node.js, TypeScript
-        • ASP.NET MVC, ASP.NET Web Forms
-        • REST API
-        • LINQ, LINQ to SQL, Entity Framework, NHibernate
-        • HTML 5, CSS3, Bootstrap, Vuetify, Ant Design
-        • SQL Server, MongoDB
-        • Amazon Web Services
-
-        Dev tools & Devops tools:
-        Git, Tortoise Svn, TFS, BitBucket, GitHub, Gitblit, Teamcity, Octopus, Jenkins server, Docker, Jira, Trello, Visual Studio, Visual Studio Code, SQL Server Management Studio, MongoDB Compass, RoboMongo, Postman, Wamp Server, RabbitMQ
-
-        Key Result Areas:
-        Enterprise Application Development, Full Stack .Net & Web Development, Component based programming, Design/Architectural Patterns & Object oriented analysis and design, Dev Ops, Scrum Methodology
+        I always enjoy a challenge, and can work well under pressure; my other strengths are a strong commitment to customer services, and attention to detail. I am highly motivated and enjoy challenges within a new or existing role, and feel I am flexible enough to meet the needs of any role.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

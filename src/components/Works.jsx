@@ -48,9 +48,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p variants={fadeIn("", "", 1.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
-        content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+        Throughout my career, I could able to work on multiple projects with very skillful people. Projects to which I contributed from the design level to the delivery/hosting level. In .Net first started to work with ASP.Net web pages, then with MVC. Work with several desktop applications as well. With JavaScript, First, it was Jquery, Then Angular.js and Angular 2+, Work with react.js on a few projects. Currently involved in a project where we use Vue.js for the front end. As a full stack developer Could able to get experience in DB(SQL/Mongo/GraphDb), Back-end(C#.Net/APIs), Front-end(JS/Angular/React/Vue), Cloud(AWS/Azure).
         </motion.p>
       </div>
 

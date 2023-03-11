@@ -12,10 +12,6 @@ import {
     mongodb,
     git,    
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -29,7 +25,18 @@ import {
     chinthaka,
     krishan,
     masha,
-    sameera
+    sameera,
+    agrando,
+    embla,
+    empite,
+    virtusa,
+    churchhub,
+    acta,
+    empty,
+    path2smile,
+    cc,
+    good2give,
+    tapsy
   } from "../assets";
   
   export const navLinks = [
@@ -49,21 +56,21 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Asoociate Tech Lead/Team Lead",
       icon: web,
     },
     {
-      title: "Full stack developer",
+      title: "Senior Software Engineer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Software Engineer",
       icon: backend,
     },
     {
-      title: "Front-end Developer",
+      title: "Associate Enginner - Technology",
       icon: creator,
-    },
+    }    
   ];
   
   const technologies = [
@@ -127,57 +134,70 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Asoociate Tech Lead/Team Lead",
+      company_name: "Agrando as - Norway",
+      icon: agrando,
+      iconBg: "#ffff",
+      date: "May 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Manage and Lead Sri Lankan team(Developers/QAs/Designers)",
+        "Developing and maintaining web applications using Vue.js and .Net related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",        
+        "Manage code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Senior Software Engineer",
+      company_name: "Agrando as - Norway",
+      icon: agrando,
+      iconBg: "#ffff",
+      date: "May 2018 - May 2021",
+      points: [
+        "Developing and maintaining web applications using Vue.js and .Net related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Mentor junior team members and thier work",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Senior Software Engineer",
+      company_name: "Embla Software Innovation (pvt) Ltd - Sri Lanka",
+      icon: embla,
+      iconBg: "#ffff",
+      date: "Aug 2017 - May 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Angular.js and .Net related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing/Supporting responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Senior Software Engineer",
+      company_name: "Empite (pvt) Ltd",
+      icon: empite,
+      iconBg: "#ffff",
+      date: "Dec 2016 - Aug 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Angular.js/JQuery/Node.js and .Net related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Maintain/Manage hosting(AWS/IIS) functionalities",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Software Engineer",
+      company_name: "Empite (pvt) Ltd",
+      icon: empite,
+      iconBg: "#ffff",
+      date: "Dec 2014 - Nov 2016",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Angular.js/JQuery/Node.js and .Net related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Work with QA team to make sure that the applications are in good quality",
+        "Participating in code reviews and providing constructive feedback to juniors developers.",
       ],
-    },
+    }    
   ];
   
   const testimonials = [
@@ -250,51 +270,240 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "",
+      image: churchhub,
+      source_code_link: "http://churchhubjsse.mylabora.com/context",
     },
     {
-      name: "Job IT",
+      name: "Agrnado Acta",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Managing documents is not an easy task, documents should be in precise order and link to the necessary objects, otherwise it could be very messy and hide from the existing.",
       tags: [
         {
-          name: "react",
+          name: "Aurelia.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: ".Net framework with C#",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "SQL Server and NHibernate",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: acta,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
     },
     {
-      name: "Trip Guide",
+      name: "Embla FT",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Embla FT application is about genealogy. User can keep all kind of information about his family history and can view various kind of graph to see how family tree flows.",
       tags: [
         {
-          name: "nextjs",
+          name: "Angular.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: ".Net framework, MVC",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "SQL Server and Entity Framework",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: empty,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
     },
+    {
+      name: "Embla web shop",
+      description:
+        "Embla webshop is a separate project goes along with Embla FT which can be used to buy Embla FT version 10 including Version 9 and Membership Activation. ",
+      tags: [
+        {
+          name: "Angular 2+",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Net framework and c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server and Entity Framework",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: empty,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
+    },
+    {
+      name: "Ultra",
+      description:
+        "Ultra is a web application develop using .Net technologies and SQL for tourism management. This application provide many features for the management as well as the other users.",
+      tags: [
+        {
+          name: "JavaScript, JQuery",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Net framework and c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server and Entity Framework",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: empty,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
+    },
+    {
+      name: "Netcollect",
+      description:
+        "Net-collect is survey related project that we implemented for the Swinburne university in Australia. Used NodeJs as a main language and MySQL, mongodb, Neo4j for the data bases.",
+      tags: [
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Micro Services, Aws Services",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Neo4j, MongoDb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: empty,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
+    },
+    {
+      name: "Tapsy",
+      description:
+        "Tapsy is a android and ios mobile project with admin panel which we build for the Australian client. We have used .Net to write web API and the business logic. To maintain the data we have used SQL Server.",
+      tags: [
+        {
+          name: "ASP .Net MVC",
+          color: "blue-text-gradient",
+        },
+        {
+          name: ".Net framework and c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server and Entity Framework",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tapsy,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
+    },
+    {
+      name: "Good2Give",
+      description:
+        "As an advance donation management program, the specific objectives of developing ‘Give360’ are to facilitate employees in managing their funds, to handle received funds by charities",
+      tags: [
+        {
+          name: "ASP .Net MVC",
+          color: "blue-text-gradient",
+        },
+        {
+          name: ".Net framework and c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server and Entity Framework",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: good2give,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
+    },
+    {
+      name: "Care Collaborator",
+      description:
+        "A platform for Australian Home Care Providers (HCP) to manage their consumers and cases better. It makes life easy for both care workers and HCP managers by its ease of use in managing consumer data",
+      tags: [
+        {
+          name: "ASP .Net MVC",
+          color: "blue-text-gradient",
+        },
+        {
+          name: ".Net framework and c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server and Entity Framework",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cc,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
+    },
+    {
+      name: "Pelican",
+      description:
+        "Pelican is a crowd driven app which makes local deliveries simple affordable and fast. Developed for Android phones the app allows you to create deliveries and have them delivered within 1 to 6 hours",
+      tags: [
+        {
+          name: "ASP .Net MVC",
+          color: "blue-text-gradient",
+        },
+        {
+          name: ".Net framework and c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server and Entity Framework",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: empty,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
+    },
+    {
+      name: "Path2Smile Web Portal",
+      description:
+        "Path2smile a donation portal developed by Empite, allows users to post about a possible need/s, which needs people’s attention in order to be fulfilled. Developed as a website and for IPhone and Android users as well",
+      tags: [
+        {
+          name: "ASP .Net MVC",
+          color: "blue-text-gradient",
+        },
+        {
+          name: ".Net framework and c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server and Entity Framework",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: path2smile,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
+    },
+    {
+      name: "McD RiDM Portal",
+      description:
+        "Through the system user can send files and messages to the other clients and the admin center (used BizTalk server). RiDM Portal allows privilege users to manage clients, configurations changes...",
+      tags: [
+        {
+          name: "ASP .Net MVC",
+          color: "blue-text-gradient",
+        },
+        {
+          name: ".Net framework and c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server and Entity Framework",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: empty,
+      source_code_link: "https://amitham.github.io/3dportfolio/",
+    }     
   ];
   
   export { services, technologies, experiences, testimonials, projects };
